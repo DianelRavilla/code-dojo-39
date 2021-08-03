@@ -1,6 +1,6 @@
-print("Lista 6 animales")
+print("Lista 7 animales")
 animales=[]
-for i in range(eval(6)):
+for i in range(eval(7)):
     animal_entrada = input()
     animales.append(animal_entrada)
 
@@ -48,4 +48,4 @@ print("She swallowed the " + animales[2]+ " to catch the " + animales[1])
 print("She swallowed the " + animales[1]+ " to catch the " + animales[0])
 ultimaLinea()
 
-print("There was an old lady who swallowed a horse...\n ...She's dead, of course!")
+print("There was an old lady who swallowed a " + animales[6] + "\n ...She's dead, of course!")
