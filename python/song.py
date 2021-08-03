@@ -39,23 +39,7 @@ I don't know why she swallowed a fly - perhaps she'll die!
 There was an old lady who swallowed a horse...
 ...She's dead, of course!"""
 
+print(song)
 
 
-def animalParagraph(animal, lastAnimal, firstAnimal):
-    
-    animalParagraphText = """There was an old lady who swallowed a """ + animal + """;
-How absurd to swallow a .
-She swallowed the bird to catch the spider,
-She swallowed the spider to catch the fly;
-I don't know why she swallowed a fly - perhaps she'll die!"""
 
-n = input("Introducir la cantidad de animales") # Pedir cantidad de animales
-animales=[]
-for i in range(eval(n)):
-    animal_entrada = input()
-    animales.append(animal_entrada)
-
-primera_parte ="There was an old lady who swallowed a " + animales[1] + "How absurd to swallow a"
-
-# print(animales)
-# print(song)
